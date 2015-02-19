@@ -1,0 +1,34 @@
+{
+  "UserId": "",
+  "Id": 20,
+  "IsRemote": false,
+  "VFUrl": "",
+  "Executions": [
+    {
+      "StartTime": "2015-02-18 20:53:13Z",
+      "StatusTraces": [
+        {
+          "Status": "Ready",
+          "TimeStamp": "2015-02-18 20:53:13Z"
+        },
+        {
+          "Status": "QueuedLocal",
+          "TimeStamp": "2015-02-18 20:53:13Z"
+        },
+        {
+          "Status": "RunningLocal",
+          "TimeStamp": "2015-02-18 20:53:13Z"
+        },
+        {
+          "Status": "Succeeded",
+          "TimeStamp": "2015-02-18 20:53:16Z"
+        }
+      ]
+    }
+  ],
+  "JobReceived": "2015-02-18 20:53:13Z",
+  "JobName": "CyPhy2PCBMfg_Manufacturing",
+  "RunCommand": "dir",
+  "SizeOfSourcePackage": null,
+  "ToolSpecifics": null
+}

@@ -1,0 +1,75 @@
+{
+  "Status": "OK", 
+  "CopyTestResults": false, 
+  "Parameters": [
+    {
+      "Description": "", 
+      "DisplayedName": null, 
+      "GMEID": "id-0067-00000096", 
+      "Value": ".\\OSHparkPCBOrder.cam", 
+      "Range": "-inf..inf", 
+      "ID": "ca9bdd4a-b40d-4a64-b8a2-6a480a8b9e1b", 
+      "Unit": "", 
+      "Name": "CAM file"
+    }
+  ], 
+  "TierLevel": 0, 
+  "Artifacts": [], 
+  "VisualizationArtifacts": [], 
+  "DesignName": "Temperature_Indicator_Project", 
+  "Metrics": [], 
+  "DesignID": "{c20af07e-74ac-42c1-b339-28fcd2b2b630}", 
+  "Dependencies": [], 
+  "Steps": [
+    {
+      "ExecutionCompletionTimestamp": "2015-02-18T20:53:14.229000", 
+      "Status": "OK", 
+      "Description": null, 
+      "Parameters": [], 
+      "ExecutionStartTimestamp": "2015-02-18T20:53:14.179000", 
+      "PreProcess": null, 
+      "PostProcess": null, 
+      "Invocation": "dir", 
+      "LogFile": "log/log2015-02-18T205314.179000.log", 
+      "Type": null
+    }, 
+    {
+      "ExecutionCompletionTimestamp": "2015-02-18T20:53:15.119000", 
+      "Status": "OK", 
+      "Description": "", 
+      "Parameters": [], 
+      "ExecutionStartTimestamp": "2015-02-18T20:53:14.235000", 
+      "PreProcess": "", 
+      "PostProcess": "", 
+      "Invocation": "python.exe -m cam2gerber -b\"schema.brd\" -c\"pcb_mfg.cam\" > log\\cam2gerber.log", 
+      "LogFile": "log/log2015-02-18T205314.235000.log", 
+      "Type": null
+    }, 
+    {
+      "ExecutionCompletionTimestamp": "2015-02-18T20:53:15.903000", 
+      "Status": "OK", 
+      "Description": "", 
+      "Parameters": [], 
+      "ExecutionStartTimestamp": "2015-02-18T20:53:15.123000", 
+      "PreProcess": "", 
+      "PostProcess": "", 
+      "Invocation": "python.exe -m runCentroidUlp > log\\centroids.log", 
+      "LogFile": "log/log2015-02-18T205315.123000.log", 
+      "Type": null
+    }, 
+    {
+      "ExecutionCompletionTimestamp": "2015-02-18T20:53:16.173000", 
+      "Status": "OK", 
+      "Description": "", 
+      "Parameters": [], 
+      "ExecutionStartTimestamp": "2015-02-18T20:53:15.907000", 
+      "PreProcess": "", 
+      "PostProcess": "", 
+      "Invocation": "python.exe -m get_bom_with_eagle_xref  > log\\assemblyBom.log", 
+      "LogFile": "log/log2015-02-18T205315.907000.log", 
+      "Type": null
+    }
+  ], 
+  "TestBench": "Manufacturing", 
+  "Created": "2015-02-19T02:53:13.4969829Z"
+}

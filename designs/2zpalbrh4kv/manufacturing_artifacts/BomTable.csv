@@ -1,0 +1,68 @@
+,,Design Name:,Temperature_Indicator_Project
+,,Pricing Timestamp:,"Wednesday, February 18, 2015 8:05 PM"
+,,Cost per Unit (based on 3 units):,$2.02
+
+"Item #",Qty,"Reference Designator",Manufacturer,"Manufacturer Part #",Description,Package,"Supplier 1","Supplier 1 SKU","Supplier 1 Price/Unit","Supplier 1 Extended Price",Notes
+1,1,"Temperature Sensor/U3",Microchip,MCP9701AT-E/TT,"IC SENSOR THERMAL 3.1V SOT23-3",,"Future Electronics",MCP9701AT-E/TT,0.25,0.25,"Lead Free, RoHS Compliant, Lifecycle Status Active"
+2,1,"Power Management/C1","Taiyo Yuden",LMK107B7105KA-T,"Cap Cer 1uf 10v 10% X7r 0603",'0603,Newark,77M8666,0.012,0.012,"Lead Free, RoHS Compliant, Lifecycle Status Active"
+3,1,"Power Management/TP0",,,,,,,,,
+4,1,"Power Management/TP5",,,,,,,,,
+5,1,"Power Management/PinAdapter",,,,,,,,,
+6,1,"Power Management/PinAdapter",,,,,,,,,
+7,1,"Power Management/PinAdapter",,,,,,,,,
+8,1,"Power Management/PinAdapter",,,,,,,,,
+9,8,"Power Management/RB, 
+LED Subassembly/RG, 
+LED Subassembly/RR, 
+LED Subassembly/RO, 
+LED Subassembly/RY, 
+Voltage Divider/R2, 
+Voltage Divider/R4, 
+Voltage Divider/R3",Rohm,MCR03ERTJ181,"RES SMD 180 OHM 5% 1/10W 0603",,Digi-Key,RHM180CGDKR-ND,0.01,0.08,
+10,2,"Power Management/C2, 
+Inverters/C3",Samsung,CL10B103KO8NNNC,"CAP CER 10000PF 16V 10% X7R 0603",'0603,Digi-Key,1276-1926-6-ND,0.1,0.2,", RoHS Compliant"
+11,1,"Power Management/J1",Harwin,M20-9990246,"02 SIL Vertical Pin Header",,Newark,96K4235,0.065,0.065,", RoHS Compliant"
+12,1,"Power Management/D1",Lite-On,LTST-C191TBKT,"SMT LED Blue, Clear 470nm",'0603,Mouser,859-LTST-C191TBKT,0.26,0.26,"Lead Free, RoHS Compliant"
+13,1,"LED Subassembly/D3",Lite-On,LTST-C191KSKT,"LED SMT YEL CLR 0603 5K/TR",'0603,"Future Electronics",LTST-C191KSKT,0.0703,0.0703,"Lead Free, RoHS Compliant"
+14,1,"LED Subassembly/D4",Lite-On,LTST-C191KFKT,"SMT LED Orange, Clear 605nm",'0603,Mouser,859-LTST-C191KFKT,0.11,0.11,"Lead Free, RoHS Compliant"
+15,1,"LED Subassembly/D2",Lite-On,LTST-C191KGKT,"SMT LED Green, Clear 571nm",'0603,"Future Electronics",LTST-C191KGKT,0.0413,0.0413,"Lead Free, RoHS Compliant"
+16,1,"LED Subassembly/D5",Lite-On,LTST-C191KRKT,"SMT LED Red, Clear 631nm",'0603,Mouser,859-LTST-C191KRKT,0.11,0.11,"Lead Free, RoHS Compliant"
+17,1,"LED Subassembly/PinAdapter",,,,,,,,,
+18,1,"LED Subassembly/PinAdapter",,,,,,,,,
+19,1,"LED Subassembly/PinAdapter",,,,,,,,,
+20,1,"LED Subassembly/PinAdapter",,,,,,,,,
+21,1,"LED Subassembly/PinAdapter",,,,,,,,,
+22,1,"LED Subassembly/PinAdapter",,,,,,,,,
+23,1,"LED Subassembly/PinAdapter",,,,,,,,,
+24,1,"LED Subassembly/PinAdapter",,,,,,,,,
+25,1,Inverters/PinAdapter,,,,,,,,,
+26,1,Inverters/PinAdapter,,,,,,,,,
+27,1,Inverters/U2,"Fairchild Semiconductor",74VHC14MTCX,"QUAD 2 INPUT NAND GATE (S.O.)",TSSOP-14,Newark,78K6373,0.102,0.102,"Lead Free, RoHS Compliant, Lifecycle Status Active"
+28,5,"Comparators/R8, 
+Comparators/R6, 
+Comparators/R7, 
+Comparators/R9, 
+Voltage Divider/R1",Rohm,MCR03ERTJ682,"RES SMD 6.8K OHM 5% 1/10W 0603",,Digi-Key,RHM6.8KCGCT-ND,0.01,0.05,
+29,1,Comparators/PinAdapter,,,,,,,,,
+30,1,Comparators/PinAdapter,,,,,,,,,
+31,1,Comparators/PinAdapter,,,,,,,,,
+32,1,Comparators/PinAdapter,,,,,,,,,
+33,1,Comparators/PinAdapter,,,,,,,,,
+34,1,Comparators/U1,"Texas Instruments",LM139DR,"IC QUAD DIFF COMPARATOR 14-SOIC",SOIC-14,Newark,28X4322,0.574,0.574,"Lead Free, RoHS Compliant, Lifecycle Status Active"
+35,1,"Voltage Divider/PinAdapter",,,,,,,,,
+36,1,"Voltage Divider/PinAdapter",,,,,,,,,
+37,1,"Voltage Divider/TP2",,,,,,,,,
+38,1,"Voltage Divider/PinAdapter",,,,,,,,,
+39,1,"Voltage Divider/PinAdapter",,,,,,,,,
+40,1,"Voltage Divider/TP4",,,,,,,,,
+41,1,"Voltage Divider/PinAdapter",,,,,,,,,
+42,1,"Voltage Divider/PinAdapter",,,,,,,,,
+43,1,"Voltage Divider/TP3",,,,,,,,,
+44,1,"Voltage Divider/R5",Rohm,MCR03ERTF1271,"RES SMD 1.27K OHM 1% 1/10W 0603",,Digi-Key,RHM1.27KCFDKR-ND,0.1,0.1,
+45,1,"Voltage Divider/TP1",,,,,,,,,
+46,1,Fiducials/FD1,,,,,,,,,
+47,1,Fiducials/FD2,,,,,,,,,
+48,1,Fiducials/FD3,,,,,,,,,
+49,1,Fiducials/FD6,,,,,,,,,
+50,1,Fiducials/FD4,,,,,,,,,
+51,1,Fiducials/FD5,,,,,,,,,
