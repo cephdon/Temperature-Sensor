@@ -1,0 +1,25 @@
+{
+  "Project": {
+    "Components": [],
+    "DesignSpaceModels": [],
+    "Configurations": [],
+    "TestBenches": [
+      "./test-benches/Place_and_Route.testbench.json"
+    ],
+    "Results": {
+      "UrlHints": [
+        "./results/results.metaresults.json"
+      ]
+    },
+    "Requirements": {
+      "UrlHints": [
+        "./requirements/requirements.json"
+      ],
+      "id": "",
+      "vfLink": "",
+      "text": ""
+    },
+    "CyPhyProjectFileName": "Temperature_Sensor.mga",
+    "LastModified": "2015-04-13 13-14-10"
+  }
+}
